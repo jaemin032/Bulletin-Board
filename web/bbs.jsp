@@ -14,7 +14,7 @@
 
 </head>
 <body>
-<nav class = "navbar navbar-default">
+    <nav class = "navbar navbar-default">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed"
                 data-toggle="collapse" data-target="#bs-example-navbar-collapse-1
@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
             <li><a href="main.jsp">메인</a></li>
-            <li><a href="bbs.jsp">게시판</a></li>
+            <li class="active"><a href="bbs.jsp">게시판</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
@@ -36,7 +36,7 @@
                    data-toggle="dropdown" role="button" aria-haspopup="true"
                    aria-expanded="false">접속하기<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li class="active"><a href="login.jsp">로그인</a></li>
+                    <li><a href="login.jsp">로그인</a></li>
                     <li><a href="join.jsp">회원가입</a></li>
                 </ul>
             </li>
@@ -49,15 +49,15 @@
     <div class="row">
         <table class="table table-striped" style="text-align: center; border: 1px solid #dddddd">
             <thead>
-            <tr>
-                <th style="background-color: #eeeeee; text-align: center;">번호</th>
-                <th style="background-color: #eeeeee; text-align: center;">제목</th>
-                <th style="background-color: #eeeeee; text-align: center;">작성자</th>
-                <th style="background-color: #eeeeee; text-align: center;">작성일</th>
+                <tr>
+                    <th style="background-color: #eeeeee; text-align: center;">번호</th>
+                    <th style="background-color: #eeeeee; text-align: center;">제목</th>
+                    <th style="background-color: #eeeeee; text-align: center;">작성자</th>
+                    <th style="background-color: #eeeeee; text-align: center;">작성일</th>
             </tr>
             </thead>
             <tbody>
-            <tr>
+                <tr>
                 <td>1</td>
                 <td>안녕하세요.</td>
                 <td>홍길동</td>
